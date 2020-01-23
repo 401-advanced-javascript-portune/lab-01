@@ -27,4 +27,8 @@ const susanCheck = validator.isValid(susan, personRules);
 const fredCheck = validator.isValid(fred, personRules);
 const susanTypeCheck = validator.isType(susan, personRules);
 const fredTypeCheck = validator.isType(fred, personRules);
+console.log('Susan Check: ', susanCheck);
+console.log('Fred Check: ', fredCheck);
+console.log('Susan Type Check: ', susanTypeCheck);
+console.log('Fred Type Check: ', fredTypeCheck);
 module.exports = {susanCheck, fredCheck, susanTypeCheck, fredTypeCheck};
